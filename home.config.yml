@@ -15,9 +15,9 @@ homebrew_installed_packages:
   - csvkit
   - curl
   - docker
+  - gh
   - ghq
   - git
-  - github/gh/gh
   - gron
   - httpie
   - hyperfine
