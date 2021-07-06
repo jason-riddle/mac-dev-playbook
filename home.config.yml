@@ -1,0 +1,70 @@
+---
+configure_dotfiles: true
+configure_terminal: false
+configure_osx: false
+
+dotfiles_repo: https://github.com/jason-riddle/dotfiles.git
+dotfiles_repo_version: master
+dotfiles_repo_accept_hostkey: true
+dotfiles_repo_local_destination: "~/Documents/dotfiles"
+dotfiles_files:
+  - .profile
+
+homebrew_upgrade_all_packages: true
+
+homebrew_installed_packages:
+  - aria2
+  - csvkit
+  - curl
+  - docker
+  - ghq
+  - git
+  - github/gh/gh
+  - gron
+  - httpie
+  - hyperfine
+  - jq
+  - openssh
+  - pre-commit
+  - sqlite
+  - stern
+  - tcpdump
+  - terraform
+  - tldr
+  - watchexec
+  - wget
+  - yamllint
+  - youtube-dl
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - docker
+  - slack
+  - vagrant
+  - virtualbox
+  - virtualbox-extension-pack
+  - zoom
+
+composer_packages: []
+# - name: drush
+#   state: present # present/absent, default: present
+#   version: "^8.1" # default: N/A
+
+gem_packages: []
+# - name: bundler
+#   state: present # present/absent/latest, default: present
+#   version: "~> 1.15.1" # default: N/A
+
+npm_packages: []
+# - name: webpack
+#   state: present # present/absent/latest, default: present
+#   version: "^2.6" # default: N/A
+
+pip_packages: []
+# - name: mkdocs
+#   state: present # present/absent/latest, default: present
+#   version: "0.16.3" # default: N/A
