@@ -10,8 +10,6 @@ dotfiles_repo_local_destination: "~/Documents/dotfiles"
 dotfiles_files:
   - .profile
 
-homebrew_upgrade_all_packages: true
-
 homebrew_installed_packages:
   - aria2
   - csvkit
