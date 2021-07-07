@@ -1,0 +1,14 @@
+---
+- name: Ensure Visual Studio Code directories exist.
+  file:
+    path: "{{ item }}"
+    state: directory
+  loop:
+    - "{{ vscode_base_path }}/{{ vscode_config_path }}"
+
+- name: Ensure Visual Studio Code settings are installed.
+  copy:
+    src: "files/vscode/{{ item }}"
+    dest: "{{ vscode_base_path }}/{{ vscode_config_path }}/{{ item }}"
+  loop:
+    - "settings.json"

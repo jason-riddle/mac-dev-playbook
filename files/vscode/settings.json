@@ -1,0 +1,74 @@
+{
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "[json]": {
+        "editor.tabSize": 2
+    },
+    "[makefile]": {
+        "editor.insertSpaces": false,
+        "editor.tabSize": 4
+    },
+    "[python]": {
+        "editor.formatOnPaste": false
+    },
+    "[shellscript]": {
+        "editor.insertSpaces": false,
+        "editor.tabSize": 4
+    },
+    "[terraform]": {
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true
+    },
+    "aws.telemetry": false,
+    "editor.fontFamily": "JetBrains Mono, Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 18,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.renderIndentGuides": true,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        78
+    ],
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.associations": {
+        "*.hcl": "terraform",
+        "BUILD": "bazel",
+        "Vagrantfile": "ruby",
+        "gitaliases": "properties",
+        "*.splitfile": "sql",
+        "Brewfile": "ruby",
+        ".yamllint": "yaml",
+        ".ansible-lint": "yaml"
+    },
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "files.exclude": {
+        "node_modules/": true
+    },
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "javascript.suggestionActions.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "markdown-table-formatter.telemetry": false,
+    "shellformat.flag": "-bn -ci -sr -kp -i=0",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "terminal.integrated.fontSize": 16,
+    "update.showReleaseNotes": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "file-icons",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "jupyter.alwaysTrustNotebooks": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.showStartPage": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "go.toolsManagement.autoUpdate": true,
+    "redhat.telemetry.enabled": false
+}
