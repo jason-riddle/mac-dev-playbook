@@ -67,3 +67,7 @@ pip_packages: []
 # - name: mkdocs
 #   state: present # present/absent/latest, default: present
 #   version: "0.16.3" # default: N/A
+
+configure_vscode: true
+vscode_base_path: '~/Library/Application Support/Code'
+vscode_config_path: "User"
