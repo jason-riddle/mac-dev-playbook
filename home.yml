@@ -6,6 +6,7 @@
 
   roles:
     - role: elliotweiser.osx-command-line-tools
+      # when: configure_clitools
     - role: geerlingguy.mac.homebrew
       tags: ['homebrew']
     - role: geerlingguy.dotfiles

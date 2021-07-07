@@ -1,5 +1,6 @@
 ---
 configure_dotfiles: true
+# configure_clitools: false
 configure_terminal: false
 configure_osx: false
 
