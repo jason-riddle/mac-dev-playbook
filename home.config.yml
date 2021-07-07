@@ -12,6 +12,7 @@ dotfiles_files:
 
 homebrew_installed_packages:
   - aria2
+  - coreutils
   - csvkit
   - curl
   - docker
