@@ -25,6 +25,7 @@ homebrew_installed_packages:
   - jq
   - openssh
   - pre-commit
+  - rust
   - sqlite
   - stern
   - tcpdump
